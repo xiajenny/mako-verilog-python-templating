@@ -1,7 +1,7 @@
 This document is a work in progress.
 # Generate/parameterize verilog files using mako templating and python
 
-I had a large spreadsheet of 140+ instructions, signals, opcodes, and comments that needed to be turned into a decoder, so to save the effort of manually creating the structure of the decoder.v file I used a python script and mako to generate it. It was pretty easy and straightforward to do, so I made this guide to share the basics of how to use mako to save yourself some time. 
+At work, we had a large spreadsheet of 140+ instructions, signals, opcodes, and comments that needed to be turned into a decoder and other things, so instead of manually creating the verilog files, I used a python script and mako to generate them. It was pretty easy and straightforward to do, so I made this guide to share the basics of how to use mako to save yourself some time. You can read further or just jump into the examples I've included in this repo.
 
 Edmond Cote has a tool for verilog templating using mako [here](https://github.com/edcote/vmako) that might be helpful, but I ended up not using it because I was doing one-off file generations.
 
